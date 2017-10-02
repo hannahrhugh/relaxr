@@ -1,0 +1,183 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+	color: #000;
+	line-height: 1.5;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	color: white;
+	font-size: 25px;
+	font-weight: 800;
+}
+
+h2 { 
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	padding: 30px;
+	font-weight: 600;
+ }
+
+ h3 {
+ 	color: #033048;
+ 	padding: 10px;
+ 	font-size: 20px;
+ 	font-weight: 600;
+
+ }
+
+ p {
+ 	color: #606161;
+ 	font-weight: 300;
+ 	width: 50%;
+ }
+
+ ul { 
+ 	color: #606161;
+ 	font-weight: 300;
+ 	width: 50%;
+ 	padding: 20px;
+  }
+
+ h5	{
+ 	color: #f9e42e;
+ 	text-align: center;
+ 	padding: 20px;
+ 	font-size: 25px;
+ }
+
+ blockquote {
+ 	color: white;
+ 	line-height: 1.5;
+ 	padding: 30px;
+ 	font-weight: 300;
+ 	font-style: italic;
+ }
+
+ h4 {
+ 	color: white;
+ 	font-size: 20px;
+ 	font-weight: 600;
+ }
+
+ footer {
+ 	background-color: #121212;
+ 	height: 130px;
+ 	background-size: cover;
+ 	font-weight: 800;
+ }
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+	max-width: 90%;
+  margin: 0 auto;
+  width: 1024px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.intro {
+	background: url("../images/header_bg.jpg") no-repeat center top rgb(134,141,157);
+	background-size: cover;
+	height: 450px;
+}
+
+.benefits {
+	background-color: #f0efef;
+	padding: 20px;
+}
+
+.testimonial {
+	background: url("../images/testimonial_bg.jpg") no-repeat center bottom rgb(134,141,157);
+	background-size: cover;
+	text-align: center;
+	color: #606161;
+	height: 200px;
+}
+
+#signup-container {
+	background-color: #f9e42e;
+	height: 60px;
+	text-align: center;
+}
+
+.signup-link {
+	color: white;
+	background-color: #033048;
+	padding: 5px 25px;
+	border-radius: 5px;
+	margin: 10px;
+	display: inline-block;
+	font-weight: 800;
+}
+
+#getnow-container {
+	text-align: center;
+	padding: 30px;
+	height: 50px;
+}
+
+#getnow-link {
+	background-color: #f9e42e;
+	color: #033048;
+	font-weight: 800;
+	display: inline-block;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+
+/*I think I should have used marin: 0 auto to center the social icons, but I couldnt get this to center?*/
+.social-icons {
+ 	text-align: center;
+}
+
+.copyright {
+	background-color: #121212;
+	text-align: center;
+	font-weight: 600px;
+	color: white;
+	font-size: 15px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	width: 100%;
+}
+
