@@ -81,9 +81,10 @@ h2 {
  blockquote {
  	color: white;
  	line-height: 1.5;
- 	padding: 30px;
  	font-weight: 300;
  	font-style: italic;
+ 	width: 30%;
+ 	margin: 0 auto;
  }
 
  h4 {
@@ -124,6 +125,7 @@ h2 {
 .benefits {
 	background-color: #f0efef;
 	padding: 20px;
+	padding-left: 30px;
 }
 
 .testimonial {
@@ -148,6 +150,7 @@ h2 {
 	margin: 10px;
 	display: inline-block;
 	font-weight: 800;
+	text-decoration: none;
 }
 
 #getnow-container {
@@ -163,6 +166,7 @@ h2 {
 	display: inline-block;
 	padding: 10px 20px;
 	border-radius: 5px;
+	text-decoration: none;
 }
 
 /*I think I should have used marin: 0 auto to center the social icons, but I couldnt get this to center?*/
